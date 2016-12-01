@@ -1,5 +1,5 @@
 {
-    "name": "gointegro/hateoas",
+    "name": "skqr/hateoas",
     "description": "GOintegro HATEOAS Lib",
     "keywords": ["Doctrine", "HATEOAS", "REST", "API", "JSON-API"],
     "homepage": "http://www.gointegro.com",
@@ -23,7 +23,7 @@
         "symfony/doctrine-bridge": "*",
         "doctrine/doctrine-bundle": "*",
         "doctrine/orm": "*",
-        "rhumsaa/uuid": "*",
+        "ramsey/uuid": "*",
         "predis/predis": "*",
 
         "symfony/http-foundation": "*",
@@ -36,12 +36,12 @@
         "symfony/validator": "*",
         "symfony/yaml": "*",
 
-        "gointegro/json": "*",
-        "gointegro/raml": "*"
+        "skqr/json": "*",
+        "skqr/raml": "*"
     },
     "require-dev": {
         "phpunit/phpunit": "*",
-        "phpdocumentor/phpdocumentor": "*",
+        "phpdocumentor/phpdocumentor": "2.*",
         "codeception/codeception": "*",
         "codeclimate/php-test-reporter": "dev-master"
     },
