@@ -94,6 +94,15 @@ class Params
      * @var boolean
      */
     public $i18n;
+    /**
+     * @var boolean
+     */
+    public $translatable;
+    
+    /**
+     * @var stdClass|null
+     */
+    public $resourceConfig;
 
     /**
      * @param string $field
