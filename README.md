@@ -1,6 +1,8 @@
 # [GOintegro](http://www.gointegro.com/en/) / HATEOAS
 
-[![Build Status](https://travis-ci.org/GoIntegro/hateoas.svg?branch=master)](https://travis-ci.org/GoIntegro/hateoas) [![Code Climate](https://codeclimate.com/github/GoIntegro/hateoas/badges/gpa.svg)](https://codeclimate.com/github/GoIntegro/hateoas)
+[![Join the chat at https://gitter.im/skqr/hateoas](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/skqr/hateoas?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+[![Build Status](https://travis-ci.org/skqr/hateoas.svg?branch=master)](https://travis-ci.org/skqr/hateoas) [![Code Climate](https://codeclimate.com/github/skqr/hateoas/badges/gpa.svg)](https://codeclimate.com/github/skqr/hateoas)
 
 This is a library that uses a Doctrine 2 entity map and a [RAML](http://raml.org/) API definition to conjure a [HATEOAS](http://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm) API, following the [JSON-API](http://jsonapi.org/) specification.
 
@@ -46,7 +48,7 @@ ___
 
 # Installation
 
-Check out the [Symfony 2 bundle](https://github.com/GoIntegro/hateoas-bundle/) for a full-stack framework implementation.
+Check out the [Symfony 2 bundle](https://github.com/skqr/hateoas-bundle/) for a full-stack framework implementation.
 
 ___
 
@@ -790,15 +792,15 @@ We are using the [Git Flow branching model](http://nvie.com/posts/a-successful-g
 
 New code should not exceed the legendary eighty char boundary, and [be fully documented](http://www.phpdoc.org/docs/latest/index.html).
 
-FYI: we still need to migrate the issues from [the bundle repo](https://github.com/GoIntegro/hateoas-bundle).
+FYI: we still need to migrate the issues from [the bundle repo](https://github.com/skqr/hateoas-bundle).
 
 # Roadmap
 
-Any [issue labeled *enhancement* goes](https://github.com/GoIntegro/hateoas-bundle/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement+author%3Askqr+).
+Any [issue labeled *enhancement* goes](https://github.com/skqr/hateoas-bundle/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement+author%3Askqr+).
 
-PATCH support [is coming soon](https://github.com/GoIntegro/hateoas-bundle/issues/63).
+PATCH support [is coming soon](https://github.com/skqr/hateoas-bundle/issues/63).
 
-(Most of the enhancement issues are still in [the bundle repo](https://github.com/GoIntegro/hateoas-bundle).)
+(Most of the enhancement issues are still in [the bundle repo](https://github.com/skqr/hateoas-bundle).)
 
 # Disclaimer
 
