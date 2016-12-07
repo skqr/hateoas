@@ -42,7 +42,7 @@
     "require-dev": {
         "phpunit/phpunit": "*",
         "phpdocumentor/phpdocumentor": "2.*",
-        "codeception/codeception": "*",
+        "codeception/codeception": "2.2.*",
         "codeclimate/php-test-reporter": "dev-master"
     },
     "suggest": {
