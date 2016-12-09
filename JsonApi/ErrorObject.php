@@ -8,7 +8,7 @@
 namespace GoIntegro\Hateoas\JsonApi;
 
 // UUID
-use Rhumsaa\Uuid\Uuid;
+use Ramsey\Uuid\Uuid;
 
 /**
  * @see http://jsonapi.org/format/#errors
