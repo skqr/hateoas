@@ -1,5 +1,5 @@
 {
-    "name": "gointegro/hateoas",
+    "name": "skqr/hateoas",
     "description": "GOintegro HATEOAS Lib",
     "keywords": ["Doctrine", "HATEOAS", "REST", "API", "JSON-API"],
     "homepage": "http://www.gointegro.com",
@@ -36,8 +36,8 @@
         "symfony/validator": "*",
         "symfony/yaml": "*",
 
-        "gointegro/json": "*",
-        "gointegro/raml": "*"
+        "skqr/json": "*",
+        "skqr/raml": "*"
     },
     "require-dev": {
         "phpunit/phpunit": "*",
