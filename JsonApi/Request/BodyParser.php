@@ -189,9 +189,7 @@ JSON;
         Request $request, Params $params
     )
     {
-        $rawBody = $request->getContent();
-        $body = $this->jsonCoder->decode($rawBody);
-        $data = $this->unlinkingBodyParser->parse($request, $params, $body);
+        $data = $this->unlinkingBodyParser->parse($request, $params);
 
         return $this->prepareData($params, static::LINK_SCHEMA, $data);
     }
